@@ -32,3 +32,15 @@ This project predicts housing prices in Bangalore using a machine learning model
   - **Programming Language:** Python
   - **Libraries:** Scikit-Learn, NumPy, Pandas, Matplotlib (for data processing and model training)
   - **Framework:** Flask (for backend server), HTML, CSS, JavaScript (for frontend)
+
+### Usage
+1. Clone the Repository
+2. Install Dependencies Ensure you have Python installed, then use the following command to install the required libraries:
+3. Run the Backend Server Start the Flask backend server to handle prediction requests:This should start the server at http://127.0.0.1:5000.
+4. Open the User Interface Open index.html in your preferred browser to access the UI. Alternatively, you may serve the file using a local server (e.g., using Python's built-in HTTP server).
+5. Enter Property Details
+  - Bedrooms, Bathrooms, Balconies: Select the number of rooms.
+  - Locality: Choose an area from the dropdown menu.
+  - Square Feet: Enter the area in square feet.
+  - Get the Price Estimate
+6. Click the Estimate Price button to generate an estimated price.The price will be displayed below the button.
